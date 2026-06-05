@@ -1,12 +1,12 @@
 # Flight Analytics Lakehouse
-![Cloud](https://img.shields.io/badge/Cloud-Microsoft%20Azure-0078D4)
-![Architecture](https://img.shields.io/badge/Architecture-Data%20Lakehouse-6A1B9A)
-![Storage](https://img.shields.io/badge/Storage-ADLS%20Gen2-00A4EF)
-![Analytics](https://img.shields.io/badge/Analytics-Azure%20Synapse-0078D4)
-![Processing](https://img.shields.io/badge/Processing-Azure%20Databricks-EF3E42)
-![Database](https://img.shields.io/badge/Database-MS%20SQL%20Server-CC2927)
+![Azure](https://img.shields.io/badge/Azure-0078D4)
+![ADLS%20Gen2](https://img.shields.io/badge/ADLS%20Gen2-00A4EF)
+![Lakehouse](https://img.shields.io/badge/Lakehouse-Medallion-4285F4)
+![Azure%20Synapse](https://img.shields.io/badge/Azure%20Synapse-0078D4)
+![Azure%20Databricks](https://img.shields.io/badge/Azure%20Databricks-EF3E42)
+![SQL%20Server](https://img.shields.io/badge/MS%20SQL%20Server-CC2927)
 ![Dataset](https://img.shields.io/badge/Dataset-Kaggle-20BEFF)
-![Records](https://img.shields.io/badge/Records-30M+-34A853)
+![Records](https://img.shields.io/badge/Records-30M%2B-34A853)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-F9AB00)
 ## Overview
 
