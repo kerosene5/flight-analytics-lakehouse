@@ -1,7 +1,7 @@
 # Flight Analytics Lakehouse
 ![Azure](https://img.shields.io/badge/Azure-0078D4)
 ![ADLS%20Gen2](https://img.shields.io/badge/ADLS%20Gen2-00A4EF)
-![Lakehouse](https://img.shields.io/badge/Lakehouse-Medallion-4285F4)
+![Data Lakehouse](https://img.shields.io/badge/Lakehouse-Medallion-4285F4)
 ![Azure%20Synapse](https://img.shields.io/badge/Azure%20Synapse-0078D4)
 ![Azure%20Databricks](https://img.shields.io/badge/Azure%20Databricks-EF3E42)
 ![SQL%20Server](https://img.shields.io/badge/MS%20SQL%20Server-CC2927)
