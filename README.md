@@ -12,8 +12,6 @@
 
 ## Overview
 
-## Overview
-
 Flight Analytics Lakehouse is an end-to-end Azure Data Engineering project that processes and analyzes over 30 million flight records using a modern Lakehouse architecture.
 
 The platform ingests raw aviation datasets into Azure Data Lake Storage Gen2, transforms and validates data through a Medallion Architecture (Bronze, Silver, and Gold layers), and delivers analytics-ready datasets for reporting and business intelligence.
