@@ -6,8 +6,11 @@
 ![Tableau](https://img.shields.io/badge/Tableau-F8FAFC?style=flat&logo=plotly&logoColor=E97627)
 ![Status](https://img.shields.io/badge/Status-In_Progress-FED7AA?style=flat&logo=buffer&logoColor=C2410C)
 
+Production-style Azure Data Lakehouse project built on 30 million flight records and 119 attributes from the U.S. Department of Transportation flight performance dataset.
 
-End-to-end data engineering and analytics project for building a cloud-based flight performance lakehouse on Microsoft Azure. The project uses the Kaggle **Flight Status Prediction** dataset (30,000,000 Rows, 119 Columns) and follows a medallion architecture (Bronze / Silver / Gold) from raw ingestion to curated analytical outputs for Tableau dashboards.
+The pipeline follows a Medallion Architecture (Bronze → Silver → Gold), transforming raw operational data into curated fact and dimension models for analytics, KPI tracking, and business intelligence reporting.
+
+Technologies used include Azure Data Lake Storage Gen2, Azure Synapse Analytics, Azure Databricks, PySpark, SQL, and Tableau.
 
 This project covers every aspect of working with data: **Data Engineering, Data Analysis and Data Visualization.**
 
