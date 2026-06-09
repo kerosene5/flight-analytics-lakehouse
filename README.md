@@ -1,10 +1,10 @@
 # Flight Analytics Data Lakehouse
 
-![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-C8A2FF?style=flat&logo=microsoftazure&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-B7E4C7?style=flat&logo=microsoftsqlserver&logoColor=1B4332)
-![PySpark](https://img.shields.io/badge/PySpark-FFB26B?style=flat&logo=apachespark&logoColor=D9480F)
-![Tableau](https://img.shields.io/badge/Tableau-F5F5F5?style=flat&logo=tableau&logoColor=E97627)
-![Status](https://img.shields.io/badge/status-in%20progress-orange)
+![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-D8B4FE?style=flat&logo=icloud&logoColor=5B21B6)
+![Database](https://img.shields.io/badge/SQL_Server-D1FAE5?style=flat&logo=databricks&logoColor=374151)
+![PySpark](https://img.shields.io/badge/PySpark-FED7AA?style=flat&logo=apachespark&logoColor=C2410C)
+![Tableau](https://img.shields.io/badge/Tableau-F8FAFC?style=flat&logo=plotly&logoColor=E97627)
+![Status](https://img.shields.io/badge/Status-In_Progress-FED7AA?style=flat&logo=buffer&logoColor=C2410C)
 
 
 End-to-end data engineering and analytics project for building a cloud-based flight performance lakehouse on Microsoft Azure. The project uses the Kaggle **Flight Status Prediction** dataset (30,000,000 Rows, 119 Columns) and follows a medallion architecture (Bronze / Silver / Gold) from raw ingestion to curated analytical outputs for Tableau dashboards.
