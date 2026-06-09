@@ -7,7 +7,7 @@ End-to-end data engineering and analytics project for building a cloud-based fli
 
 The goal is to learn and demonstrate both sides of the workflow: reliable data engineering in Azure and practical data analysis through business KPIs.
 
-## Project Scope
+## Scope
 
 This repository documents a complete flight analytics pipeline:
 
