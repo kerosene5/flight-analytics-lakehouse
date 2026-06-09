@@ -3,7 +3,7 @@
 ![Records](https://img.shields.io/badge/records-30M%2B-brightgreen)
 ![Status](https://img.shields.io/badge/status-in%20progress-orange)
 
-End-to-end data engineering and analytics project for building a cloud-based flight performance lakehouse on Microsoft Azure. The project uses the Kaggle **Flight Status Prediction** dataset and follows a medallion architecture from raw ingestion to curated analytical outputs for Tableau dashboards.
+End-to-end data engineering and analytics project for building a cloud-based flight performance lakehouse on Microsoft Azure. The project uses the Kaggle **Flight Status Prediction** dataset (30,000,000 Rows, 119 Columns) and follows a medallion architecture from raw ingestion to curated analytical outputs for Tableau dashboards.
 
 The goal is to learn and demonstrate both sides of the workflow: reliable data engineering in Azure and practical data analysis through business KPIs.
 
