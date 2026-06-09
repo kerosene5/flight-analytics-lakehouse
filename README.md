@@ -21,7 +21,8 @@ The pipeline implements a **Medallion Architecture (Bronze → Silver → Gold)*
 | Processing Engine | Synapse Analytics + Databricks |
 | Visualization Layer | Tableau |
 
-Built to mirror modern enterprise data platforms, this repository demonstrates cloud-native data engineering, dimensional modeling, analytics engineering, and dashboard development within a unified Azure ecosystem.
+
+This project covers the entire data workflow: **Data Engineering, Data Analysis and Data Visualization.**
 
 
 ## Why?
