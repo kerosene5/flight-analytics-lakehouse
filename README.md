@@ -9,12 +9,14 @@
 
 End-to-end data engineering and analytics project for building a cloud-based flight performance lakehouse on Microsoft Azure. The project uses the Kaggle **Flight Status Prediction** dataset (30,000,000 Rows, 119 Columns) and follows a medallion architecture (Bronze / Silver / Gold) from raw ingestion to curated analytical outputs for Tableau dashboards.
 
+This project covers every aspect of working with data: **Data Engineering, Data Analysis and Data Visualization.**
+
+
 The goal is to learn and demonstrate both sides of the workflow: reliable data engineering in Azure and practical data analysis through business KPIs.
 
 ## Scope
 
-This repository documents a complete flight analytics pipeline:
-
+The repository implements the following process for building the ETL / ELT pipeline, and the Dashboard afterwards:
 1. Ingest **raw flight files** into Azure Data Lake Storage Gen2 (ADLS Gen2).
 2. Store source data in a **Bronze** layer without changing its original structure.
 3. Use Azure Synapse Analytics / Azure Databricks to clean, standardize, and transform Bronze data into **Silver**.
