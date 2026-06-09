@@ -24,7 +24,7 @@ This repository documents a complete flight analytics pipeline:
 ```mermaid
 flowchart LR
     A["Raw Dataset <br> (ADLS Gen2 Container)"]--> B["Bronze Layer: <br> Unstructured Data"]
-    B --> C["Silver Layer: <br> Transformations, Nulls Handled & Tables Joined"]
+    B --> C["Silver Layer: <br> Transformations, Nulls & Joins"]
     C --> D["Gold Layer: <br> Fact and Dimension Tables"]
     D --> E["Tableau Dashboard"]
 
