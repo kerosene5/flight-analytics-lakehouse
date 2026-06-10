@@ -33,7 +33,7 @@ This project covers the entire data workflow: **Data Engineering, Data Analysis 
 - [Business Questions](#business-questions)
   - [KPIs](#kpis)
   - [KPI Definitions & Formulas](#kpi-definitions--formulas)
-- [Project Overview]
+- [Project Overview](#project-overview)
   - [Roadmap](#Roadmap)
   - [Repository Structure](#repository-structure)
 
@@ -258,7 +258,7 @@ The following *KPIs (Key Performance Indicators)* are used:
 
 <br>
 
-----
+
 
 ## Project Overview
 
