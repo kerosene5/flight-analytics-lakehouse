@@ -12,16 +12,16 @@ The pipeline implements a **Medallion Architecture (Bronze → Silver → Gold)*
 
 This project covers the entire data workflow: **Data Engineering, Data Analysis and Data Visualization.**
 
-### Key Metrics
+### Technologies
 
-| Metric | Value |
+| Field | Name |
 |---------|---------|
-| Records Processed | 30,000,000+ |
-| Dataset Columns | 119 |
-| Architecture | Medallion (Bronze → Silver → Gold) |
-| Cloud Platform | Microsoft Azure |
-| Processing Engine | Synapse Analytics + Databricks |
-| Visualization Layer | Tableau |
+| Cloud | Microsoft Azure |
+| Storage | Azure Data Lake Storage Gen2 |
+| Orchestration & Data Integration| Azure Data Factory |
+| Data Processing & Transformation | Azure Databricks |
+| Data Warehousing & Analytics | Azure Synapse Analytics |
+| Data Visualization & Reporting | Tableau |
 
 ## Table of Contents
 
