@@ -31,13 +31,14 @@ This project covers the entire data workflow: **Data Engineering, Data Analysis 
   - [Diagram](#architecture-diagram)
   - [Workflow](#workflow)
 - [Business Questions](#business-questions)
+  - [KPIs](#kpis)
+  - [KPI Definitions / Formulas](#kpi-definitions-/-formulas)
 - [Dataset](#dataset)
 - [Azure Setup](#current-azure-setup)
 - [Medallion Architecture](#medallion-architecture)
   - [Bronze](#bronze)
   - [Silver](#silver)
   - [Gold](#gold)
-- [KPI Plan](#kpi-plan)
 - [Repository Structure](#repository-structure)
 - [Project Status](#project-status)
 
@@ -223,33 +224,42 @@ flowchart LR
 
 ## Business Questions
 
-The project aims to explore & solve several real-world business questions from our dataset, within our *reporting* layer:
+With regards to our dataset, [Flight Status Prediction](https://www.kaggle.com/datasets/robikscube/flight-delay-dataset-20182022?select=readme.md), our *reporting* layer is designed to answer the business questions:
 
-- Which airports experience the highest delay rates?
-- Which airlines consistently achieve the best on-time performance (OTP)?
-- What seasonal trends exist in delays and cancellations?
-- Which flight routes are the least reliable?
-- What operational factors contribute most to flight delays?
-- How do airlines perform under varying traffic and congestion conditions?
+* Which airports experience the highest delay rates and operational congestion?
+* Which airlines consistently achieve the best on-time performance (OTP)?
+* What seasonal patterns exist in delays, cancellations, and traffic volume?
+* Which routes demonstrate the lowest operational reliability?
+* What factors contribute most to flight delays?
+* How does airline performance vary under different traffic conditions?
 
-## KPI Plan
+----
 
-| KPI Area | Metrics |
-| --- | --- |
-| Overall performance | Total flights, on-time performance, average departure delay |
-| Disruption tracking | Cancellation rate, diversion rate |
-| Airline analysis | Best and worst airlines, delay segmentation, reliability score |
-| Airport analysis | Most delayed airports, most reliable airports, congestion index |
-| Route analysis | Worst routes, route reliability |
-| Time analysis | Delay by day, month, and season |
+### KPIs
 
-Example KPI definitions:
+The following *KPIs (Key Performance Indicators)* are used:
 
-- **On-Time Performance (OTP):** flights delayed less than 15 minutes divided by total flights.
-- **Average Departure Delay:** average of `DepDelayMinutes`.
-- **Cancellation Rate:** cancelled flights divided by total flights.
-- **Diversion Rate:** diverted flights divided by total flights.
-- **Airport Congestion Index:** flights per day multiplied by average delay.
+| KPI Category        | Metrics                                                                      |
+| ------------------- | ---------------------------------------------------------------------------- |
+| Flight Operations   | Total Flights, Completed Flights, Cancelled Flights, Diverted Flights        |
+| On-Time Performance | OTP %, Average Departure Delay, Average Arrival Delay                        |
+| Airline Performance | OTP by Airline, Average Delay by Airline, Cancellation Rate by Airline       |
+| Airport Performance | Airport OTP %, Average Airport Delay, Airport Congestion Index               |
+| Route Reliability   | Route OTP %, Average Route Delay, Least Reliable Routes                      |
+| Delay Attribution   | Carrier Delay, Weather Delay, NAS Delay, Security Delay, Late Aircraft Delay |
+| Seasonal Analysis   | Delay Trends by Month, Quarter, Day of Week, and Season                      |
+
+----
+
+### KPI Definitions / Formulas
+
+* **On-Time Performance (OTP)** = (Flights delayed < 15 minutes) / Total completed flights
+* **Average Departure Delay** = Average of `DepDelayMinutes`
+* **Average Arrival Delay** = Average of `ArrDelayMinutes`
+* **Cancellation Rate** = `Cancelled` flights ÷ Total flights
+* **Diversion Rate** = `Diverted` flights ÷ Total flights
+* **Airport Congestion Index** = Flight volume × Average `Delay`
+* **Route Reliability Score** = Route (`Origin` + `Destination` Pair) OTP adjusted for cancellations and diversions
 
 
 ## Dataset
@@ -344,35 +354,6 @@ The project focuses on a practical subset of the full source schema for KPI deve
 | `Code` | Airline code | `VARCHAR` |
 | `Description` | Airline description | `VARCHAR` |
 
-## Business Questions
-
-The Gold layer and Tableau dashboard are designed to answer the following questions:
-
-- Which airports have the most flight delays?
-- Which airlines have the highest and lowest on-time performance?
-- What seasonal trends exist in delays and cancellations?
-- Which routes are the least reliable?
-- What factors have the strongest effect on flight delays?
-- Which airlines perform best under high-traffic conditions?
-
-## KPI Plan
-
-| KPI Area | Metrics |
-| --- | --- |
-| Overall performance | Total flights, on-time performance, average departure delay |
-| Disruption tracking | Cancellation rate, diversion rate |
-| Airline analysis | Best and worst airlines, delay segmentation, reliability score |
-| Airport analysis | Most delayed airports, most reliable airports, congestion index |
-| Route analysis | Worst routes, route reliability |
-| Time analysis | Delay by day, month, and season |
-
-Example KPI definitions:
-
-- **On-Time Performance (OTP):** flights delayed less than 15 minutes divided by total flights.
-- **Average Departure Delay:** average of `DepDelayMinutes`.
-- **Cancellation Rate:** cancelled flights divided by total flights.
-- **Diversion Rate:** diverted flights divided by total flights.
-- **Airport Congestion Index:** flights per day multiplied by average delay.
 
 ## Repository Structure
 
