@@ -6,7 +6,7 @@
 ![Tableau](https://img.shields.io/badge/Tableau-F8FAFC?style=flat&logo=plotly&logoColor=E97627)
 ![Status](https://img.shields.io/badge/Status-In_Progress-FED7AA?style=flat&logo=buffer&logoColor=C2410C)
 
-A production-style Azure Data Lakehouse that transforms **30 million flight records** into trusted, analytics-ready datasets for business intelligence and operational reporting.
+A production-style Azure Data Lakehouse that transforms **30 million flight records** into trusted, analytics-ready data for business intelligence and operational reporting.
 
 The pipeline implements a **Medallion Architecture (Bronze → Silver → Gold)** using Azure Data Lake Storage Gen2, Azure Synapse Analytics (SQL Server), Azure Databricks (PySpark) to transform raw aviation data into analytics-ready fact and dimension models for KPI reporting and dashboarding.
 
