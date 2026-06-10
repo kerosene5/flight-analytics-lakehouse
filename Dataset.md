@@ -11,7 +11,7 @@ The dataset contains detailed operational records for domestic U.S. flights betw
 | Time Period | 2018 – 2022        |
 | Records     | 30,000,000+        |
 | Columns     | 119                |
-| File Format | Parquet            |
+| File Format | Parquet + CSV           |
 | Source      | Kaggle / U.S. DOT  |
 | Domain      | Aviation           |
 
