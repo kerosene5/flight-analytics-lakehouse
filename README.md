@@ -33,14 +33,9 @@ This project covers the entire data workflow: **Data Engineering, Data Analysis 
 - [Business Questions](#business-questions)
   - [KPIs](#kpis)
   - [KPI Definitions & Formulas](#kpi-definitions--formulas)
-- [Dataset](#dataset)
-- [Azure Setup](#current-azure-setup)
-- [Medallion Architecture](#medallion-architecture)
-  - [Bronze](#bronze)
-  - [Silver](#silver)
-  - [Gold](#gold)
-- [Repository Structure](#repository-structure)
-- [Project Status](#project-status)
+- [Project Overview]
+  - [Roadmap](#Roadmap)
+  - [Repository Structure](#repository-structure)
 
 ## Features
 
@@ -263,4 +258,14 @@ The following *KPIs (Key Performance Indicators)* are used:
 
 <br>
 
-## Repository Structure
+----
+
+## Project Overview
+
+### Roadmap
+
+
+### Repository Structure
+
+
+
