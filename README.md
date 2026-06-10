@@ -69,6 +69,9 @@ This section shows the planned cloud architecture and workflow for the Flight An
 
 <h3 align="center">Architecture Diagram</h3>
 
+<img width="1474" height="588" alt="399584592-487fc52d-b1f4-4178-ac28-d0497600ca95" src="https://github.com/user-attachments/assets/34996af5-03ba-4b36-8374-c8f6e9d49a76" />
+
+
 ```mermaid
 flowchart LR
 
